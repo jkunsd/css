@@ -1,0 +1,172 @@
+<html>
+	<head>
+		<META HTTP-EQUIV="content-type" CONTENT="text/html; CHARSET="utf-8">
+		
+		<style>
+		
+			.a{
+			color: black;
+			font-family: arial;
+			}
+		
+		.bu {
+			color: black;
+			font-size: 20px;
+			font-family: arial;
+			text-decoration: underline;
+			font-weight: bold;
+			}
+			
+		.b {
+			color: black;
+			font-size: 20px;
+			font-family: arial;
+			font-weight: bold;
+			}
+			
+		.c {
+			color: black;
+			font-size: 20px;
+			font-family: arial;
+			text-decoration: underline;
+			}
+		</style>
+		
+	</head>
+<body>
+		<h1>Rodzaje selektorów</h1>
+
+	
+	
+	<ol type=1>
+	<h1><li><!1>
+			Opis znacznika DIV (jaki to element, składnia →w ramce, zastosowanie, opis
+			treotyczny, atrybuty→ tylko wymień, opisz tylko ALIGN)
+			</h1>
+	
+		<h2 class="a">Znacznik &lt;div&gt;</h2>		
+		<table cellspacing=10px style="border:1px solid black;border-collapse: collapse;">
+		<tr style="border:1px solid black;border-collapse: collapse;">
+		<td style="color: black;font-size: 20px; font-family: arial">	
+		&lt;div style="cecha: wartość; cecha2: wartość2..."&gt;...&lt;/div&gt;
+		</td>
+		</tr>
+		</table><br>
+		
+		<ol type=1 style="color: black;font-size: 20px; font-family: arial">
+			<li>Element blokowy (DIV) jest elementem blokowym może zawierać wewnątrz siebie
+zwykły tekst, jak również inne elementy blokowe. Został on pomyślany do tworzenia
+obszerniejszych struktur. 
+			<li>Z div'a powinno się korzystać kiedy potrzebujemy wyodrębnić poszczególne bloki w
+układzie dokumentu, na przykład lewa kolumna, menu nawigacyjne, stopka.
+			<li>Służy do utworzenia sekcji (bloku) w pliku HTML w celu ich sformatowania za
+pomocą arkusza stylów CSS. 
+			<li>DIV odgrywa istotną rolę w grupowaniu wielu różnych elementów i pozycjonowaniu
+fragmentów dokumentu. 
+		</ol><br>
+		
+		<table cellspacing=10px style="border:1px solid black;border-collapse: collapse;">
+		<tr style="border:1px solid black;border-collapse: collapse;">
+		<td style="color: black;font-size: 20px; font-family: arial">	
+		<span class="b">ALIGN</span>="ustawienie"<br>
+Poziome ustawienie (wyrównanie) z uwzględnieniem otoczenia (zdeprecjonowane):<br>
+ &emsp;&emsp;center - wyśrodkowanie<br>
+ &emsp;&emsp;justify - wyrównanie do obu marginesów jednocześnie<br>
+ &emsp;&emsp;left - wyrównanie do lewej<br>
+&emsp;&emsp;right - wyrównanie do prawej<br>
+		</td>
+		</tr>
+		</table>
+		
+		</p>
+		
+		
+		
+		
+		
+	<h1><li><!2>
+	
+			Opis znacznika SPAN (jaki to element, składnia →w ramce, zastosowanie, opis
+			treotyczny).
+	</h1>
+				<p style="color: black;font-size: 20px; font-family: arial">
+
+
+		<h2 class="a"> Znacznik &lt;SPAN&gt;</h2>
+		<p style="color: black;font-size: 20px; font-family: arial">
+		<ol type=1 style="color: black;font-size: 20px; font-family: arial">
+			<li>Element blokowy (DIV) jest elementem blokowym może zawierać wewnątrz siebie
+zwykły tekst, jak również inne elementy blokowe. Został on pomyślany do tworzenia
+obszerniejszych struktur. 
+			<li>Z div'a powinno się korzystać kiedy potrzebujemy wyodrębnić poszczególne bloki w
+układzie dokumentu, na przykład lewa kolumna, menu nawigacyjne, stopka.
+			<li>Służy do utworzenia sekcji (bloku) w pliku HTML w celu ich sformatowania za
+pomocą arkusza stylów CSS. 
+			<li>DIV odgrywa istotną rolę w grupowaniu wielu różnych elementów i pozycjonowaniu
+fragmentów dokumentu. 
+		</ol>
+		</p>
+		
+		<table cellspacing=10px style="border:1px solid black;border-collapse: collapse;">
+		<tr style="border:1px solid black;border-collapse: collapse;">
+		<td><p style="color: black;font-size: 20px; font-family: arial">	
+		&lt;span style="cecha1: wartość1; cecha2: wartość2..."&gt;...&lt;/span&lt;
+		</td>
+		</tr>
+		</table>
+		
+		<p style="color: black;font-size: 20px; font-family: arial">
+		Opis:
+Znacznik &lt;span&lt;...&lt;/span&lt; pozwala na objęcie pewnego większego fragmentu dokumentu.
+Pojedynczym znacznikiem &lt;span&lt;...&lt;/span&lt; możemy objąć kilka różnych elementów, które
+są wyświetlane w linii (sam element SPAN tak właśnie jest wyświetlany), np. wytłuszczenie
+tekstu oraz kursywę. Element ten tak dobrze nadaje się do osadzania stylów, ponieważ sam w
+sobie nie ma określonego żadnego formatowania, które mogłoby kolidować z efektem, jaki
+chcemy uzyskać.
+		</p>
+		
+		
+		
+		<h1><li><!3>
+			Różnica między znacznikami DIV i SPAN
+	</h1>
+	<p style="color: black;font-size: 20px; font-family: arial">
+	Obydwa elementy służą jedynie do 
+	<span class="c">wyodrębniania części struktury dokumentu, </span>
+	aby docelowo
+na przykład poprzez arkusze styli osiągnąć zamierzony wygląd strony.<br><br>
+
+<span class="bu">Span'em</span>
+wyodrębniamy 
+<span class="b">elementy liniowe </span>
+(najczęściej fragmenty tekstu) a 
+<span class="bu">divem </span>
+<span class="b">blokowe</span>
+(blokowe elementy, większe fragmenty struktury składające się na układ strony)
+Dodatkowo DIV domyślnie jest wyświetlany w bloku. Natomiast SPAN w linii.
+	
+	<h1><li><!4>
+			Opisz oraz wymień elementy/tagi: 1)liniowe 2)blokowe 3)blokowo-liniowe.
+	</h1>
+	<p >
+	
+	
+				<span class="bu">Elementy liniowe</span>
+				<span style="color: black;font-size: 20px; font-family: arial"> nie spowodują przejścia do nowej linii, będą wyświetlać się obok siebie, w
+			jednej linii. Domyślnie, elementom liniowym przeglądarka ustawia właściwość "display" na
+			"inline".</span><br>
+				<span style="color: black;font-size: 20px; font-family: arial">
+			<span class="bu">Elementy blokowe</span> z kolei będą zachowywać się jak pudełka, które ustawiasz jeden pod
+							drugim, a więc nigdy nie wyświetlą się obok siebie. Domyślnie, elementom blokowym
+							przeglądarka ustawia właściwość "display" na "block",</span><br>
+							
+				<span style="color: black;font-size: 20px; font-family: arial">			
+				<span class="bu">Elementy liniowo-blokowe</span> z kolei będą zachowywać się jak liniowe, jeśli chodzi o
+położenie (a więc wyświetlać będą się obok siebie), natomiast różnią się od nich tym, że
+możesz nadać im różne wielkości. Ma to sens, np. &lt;textarea&gt; wyświetla się jako duży
+prostokąt i zdecydowanie "wychodzi" poza pojedynczą linijkę tekstu. Domyślnie, elementom
+liniowo blokowym przeglądarka ustawia właściwość "display" na "inline-block".</span>
+
+</body>
+</html>
+<!Wojciech Krajewski>
